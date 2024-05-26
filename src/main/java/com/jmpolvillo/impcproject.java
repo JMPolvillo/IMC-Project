@@ -13,9 +13,9 @@ public class impcproject {
         float height = scanner.nextFloat();
         System.out.println("Tu altura es: " + height + " metros.");
 
-        float imc = weight / (height * height);
+        float imc = (float) (weight / Math.pow(height, 2));
 
-        System.out.println("Su Indice de Masa Corporal es: " + imc);
+        System.out.println("Tu Indice de Masa Corporal es: " + imc);
 
         if (imc < 16.0) {
             System.out.println("Tienes delgadez severa.");
