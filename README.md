@@ -11,5 +11,5 @@ To build it in Java, I followed these steps:
 3. To use the scanner, I needed an instance of the scanner class with: "Scanner scanner = new Scanner(System.in);"
 4. From lines 8 to 14, I used println to prompt the user to enter their weight and height.
 5. I used float to store the values entered by the user as variables "weight" and "height". I preferred to use "float" over "double" because we don't need as many digits to store.
-6. To calculate the BMI, I used a "float" again. The weight is divided by the square of the height, and to calculate the square of the height, I used the command "math.pow".
+6. To calculate the BMI, I used a "float" again. The weight is divided by the square of the height, and to calculate the height raised to two, I used the command "math.pow".
 7. For the rest of the code, I used println to indicate the weight category based on the BMI. For this, I used the "if" and "else if" conditional commands. Since the values in the table include brackets and parentheses, I used "greater than" and "equal to" for values starting with "[" and "less than" for values with ")".
